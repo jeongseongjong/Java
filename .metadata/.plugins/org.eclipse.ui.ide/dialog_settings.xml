@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\Java\eclipse-workspace"/>
+		<item value="D:\Java\eclipse-workspace\Chap1"/>
+		<item value="D:\Java\eclipse-workspace\sesson_01"/>
+		<item value="C:\Users\쫑이\Desktop\Java-master\Java-master\Java_20_FileWriter"/>
+		<item value="C:\Users\쫑이\Desktop\Java-master\Java-master\Java_19_Iolist"/>
+		<item value="C:\Users\쫑이\Desktop\Java-master\Java-master\Java_19_Grade"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Java\eclipse-workspace"/>
+			<item value="C:\Users\쫑이\Desktop\Java-master\Java-master\JAVA_Z_practice"/>
+			<item value="C:\Users\쫑이\Desktop\Java-master\Java-master\Java_22_SampleData"/>
+			<item value="C:\Users\쫑이\Desktop\Java-master\Java-master\Java_21_FileWriter"/>
+			<item value="C:\Users\쫑이\Downloads\Java-master\Java-master"/>
+			<item value="C:\Users\쫑이\Downloads\Java-master"/>
+			<item value="C:\Users\쫑이\Desktop\Java-master\Java-master\Java_18_FileReader"/>
+			<item value="D:\Java\eclipse-workspace\Java_17_FileReader"/>
+			<item value="D:\Java\eclipse-workspace\Java_16_Payment"/>
+			<item value="D:\Java\eclipse-workspace\Java_15_StringList"/>
+			<item value="D:\Java\eclipse-workspace\Java_15_ClassMethod"/>
+			<item value="D:\Java\eclipse-workspace\Java_PJ_001_Grade"/>
+			<item value="D:\Java\eclipse-workspace\Java_12_ClassList"/>
+			<item value="D:\Java\eclipse-workspace\Java_11_List"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

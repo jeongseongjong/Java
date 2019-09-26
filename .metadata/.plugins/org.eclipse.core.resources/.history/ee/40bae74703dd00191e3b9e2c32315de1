@@ -1,0 +1,15 @@
+package com.biz.practice;
+
+import java.util.HashMap;
+
+public class HashMap01 {
+
+	public static void main(String[] args) {
+		
+		HashMap<String, String> map = new HashMap<String, String>();
+		map.put("people", "사람");
+		map.put("baseboll", "야구");
+		
+		System.out.println(map.get("people"));
+	}
+}

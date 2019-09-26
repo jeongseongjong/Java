@@ -1,0 +1,25 @@
+package com.biz.bank;
+
+import java.util.Scanner;
+
+public class BankServiceV1 {
+
+	int intBalance ;
+	String strNum;
+	
+	Scanner scan ;
+	
+	public BankServiceV1() {
+		scan = new Scanner(System.in);
+	}
+	
+	public BankServiceV1(String strNum, int intBalance) {
+		this.strNum = strNum;
+		this.intBalance = intBalance ;
+		
+	}
+	
+	public boolean viewBank() {
+		
+	}
+}

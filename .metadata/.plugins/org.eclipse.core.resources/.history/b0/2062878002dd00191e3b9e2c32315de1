@@ -1,0 +1,9 @@
+package com.biz.practice;
+
+public class HashMap {
+
+	public static void main(String[] args) {
+		
+		HashMap map = new HashMap();
+	}
+}

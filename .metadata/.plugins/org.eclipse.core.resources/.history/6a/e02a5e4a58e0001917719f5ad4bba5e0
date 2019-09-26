@@ -1,0 +1,25 @@
+package com.biz.iolist.exec;
+
+import java.util.List;
+
+import com.biz.iolist.service.IolistService;
+import com.biz.iolist.service.WriterProductService;
+
+public class IolistEx_04 {
+
+	public static void main(String[] args) {
+
+		String strProWriteFile = "src/com/biz/iolist/상품정보.txt";
+		
+		IolistService is = new IolistService();
+		
+		try {
+			List<String> ws = is.getIoList(strProWriteFile);
+			ws.List<String>(strProWriteFile);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+
+}

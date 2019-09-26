@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.biz.files.FielEx_03&apos; to &apos;FileEx_03&apos;&#x0D;&#x0A;- Original project: &apos;Java_17_FileReader&apos;&#x0D;&#x0A;- Original element: &apos;com.biz.files.FielEx_03&apos;&#x0D;&#x0A;- Renamed element: &apos;com.biz.files.FileEx_03&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FielEx_03&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.biz.files{FielEx_03.java[FielEx_03" matchStrategy="1" name="FileEx_03" qualified="false" references="true" similarDeclarations="false" stamp="1568279042588" textual="false" version="1.0"/>
+</session>

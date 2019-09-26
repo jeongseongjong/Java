@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Java_20_FileWriter&apos;&#x0D;&#x0A;- Original project: &apos;Java_20_FileWriter&apos;&#x0D;&#x0A;- Original element: &apos;Java_20_FileWriter/src/com.biz.pfilewriter&apos;" description="Delete element" element1="/src&lt;com.biz.pfilewriter" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1568898135262" subPackages="false" version="1.0"/>
+</session>

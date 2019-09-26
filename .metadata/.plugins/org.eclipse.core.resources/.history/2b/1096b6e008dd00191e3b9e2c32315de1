@@ -1,0 +1,21 @@
+package com.biz.practice;
+
+public class LargeFor {
+
+	public static void main(String[] args) {
+		
+		// String[] strKor = new String[5]; 
+		int[] intEng = new int[5];
+		int intSum = 0;
+		//for(int i = 0 ; i < strKor.length ; ++i) {
+			//System.out.println(i);
+			
+		int intk = 0;
+			for(int k : intEng) {
+				intSum += k;
+				
+				System.out.println(k);
+			}
+		}
+	}
+

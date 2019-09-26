@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;매입매출정보.txt&apos; to &apos;com.biz.practiceIolist.PracticeIolist01.java&apos;&#x0D;&#x0A;- Original project: &apos;Java_19_Iolist&apos;&#x0D;&#x0A;- Destination element: &apos;com.biz.practiceIolist.PracticeIolist01.java&apos;&#x0D;&#x0A;- Original element: &apos;매입매출정보.txt&apos;" description="Copy file" destination="=Practice09-19/src&lt;com.biz.practiceIolist{PracticeIolist01.java" element1="src/com/biz/Iolist/매입매출정보.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1568892487973" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,19 @@
+package com.biz.pfilewriter;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class PFileWriter_01 {
+
+	public static void main(String[] args) {
+		
+		String fileName = "src/com/biz/pfilewriter/practice.txt";
+		
+		PFileWriter fileWriter;
+		
+		
+		} catch (IOException e) {
+			// TODO: handle exception
+		}
+	}
+}

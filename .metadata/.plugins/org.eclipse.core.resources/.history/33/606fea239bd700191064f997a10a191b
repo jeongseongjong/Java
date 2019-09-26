@@ -1,0 +1,21 @@
+package com.biz.practice;
+
+public class Subject {
+	
+	private String Name;
+	private int scorePoint;
+	
+	
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
+	public int getScorePoint() {
+		return scorePoint;
+	}
+	public void setScorePoint(int scorePoint) {
+		this.scorePoint = scorePoint;
+	}
+}
