@@ -106,7 +106,7 @@ public class IolistService {
 /*
  * System.out.println("---------------------------------------------------------");
 		BuyVO buyVO = new BuyVO();
-		
+		000010
 		LocalDate localDate = LocalDate.now();
 		DateTimeFormatter df = 
 				DateTimeFormatter.ofPattern("yyyy-MM-dd");
