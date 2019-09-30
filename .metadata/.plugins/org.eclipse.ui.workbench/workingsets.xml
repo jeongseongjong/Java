@@ -53,6 +53,7 @@
 <item elementID="=Practice09-22" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Practice09-00" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Practice09-23_Bank" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=09_30_BlackJackPractice" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1567503221857_2" label="Window Working Set" name="Aggregate for window 1567503221857"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1569132751215_8" label="Window Working Set" name="Aggregate for window 1569132751215"/>
