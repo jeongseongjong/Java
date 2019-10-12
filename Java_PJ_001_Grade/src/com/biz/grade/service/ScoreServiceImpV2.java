@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 import com.biz.model.ScoreVO;
 
-public class ScoreServiceImpV2 extends ScoreServiceImpV1 implements ScoreService {
+public class ScoreServiceImpV2 extends ScoreServiceImp implements ScoreService {
 
 	/*
 	 * method내의 익명클래스를 사용한 보조연산
@@ -22,21 +22,24 @@ public class ScoreServiceImpV2 extends ScoreServiceImpV1 implements ScoreService
 			}
 		});
 		int rank = 1;
-		for (ScoreVO vo : scoreList) {
+		for(ScoreVO vo : scoreList) {
 			vo.setIntRank(rank++);
 		}
 		Collections.sort(scoreList, new Comparator<ScoreVO>() {
+			
+		
+		public int compare(ScoreVO o1, ScoreVO o2) {
+			
+		return 0 ;
+			/*
+			 * return Integer.valueOf(o1.getStrNum()) - 
+			 * Integer.valueOf(o1.getStrNum());
+			 */
+					
+		}
+	
+		
 
-			@Override
-			public int compare(ScoreVO o1, ScoreVO o2) {
-
-				/*
-				 * return Integer.valueOf(o1.getStrNum()) - 
-				 * Integer.valueOf(o1.getStrNum());
-				 */
-				return o1.getStrNum().compareTo(o2.getStrNum());
-			}
-
-		});
+		Collections.sort(scoreList,inClass);
 	}
 }

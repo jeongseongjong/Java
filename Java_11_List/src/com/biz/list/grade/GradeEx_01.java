@@ -10,5 +10,7 @@ public class GradeEx_01 {
 		
 		gs.input(10);
 		gs.view();
+		gs.total();
+		
 	}
 }

@@ -6,8 +6,10 @@ public class MemberVO {
 	public String strTel;
 
 	/*
-	 * MemberVO의 맴버변수중 intAge는 나이를 보관하는 변수이다. 만약 실수로 데이터를 저장(보관할때) 실제 나이범위를 벗어나게
-	 * 저장하면 나중에 연산을 수행할 때 문제를 일으켤수도 있다. 이럴때 맴버변수를 private으로 선언하고 값을 저장할 때 method를
+	 * MemberVO의 맴버변수중 intAge는 나이를 보관하는 변수이다.
+	 * 만약 실수로 데이터를 저장(보관할때) 실제 나이범위를 벗어나게
+	 * 저장하면 나중에 연산을 수행할 때 문제를 일으켤수도 있다.
+	 * 이럴때 맴버변수를 private으로 선언하고 값을 저장할 때 method를
 	 * 통해서 저장하는 방법이 있다.
 	 */
 	private int intAge;

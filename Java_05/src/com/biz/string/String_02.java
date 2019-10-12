@@ -11,19 +11,19 @@ public class String_02 {
 		// 코드의 변화 없이 실행을 보장하기 위해서
 		// 코드를 사용하여 문자열의 개수를 센다.
 		int intLength = strNation.length();
-
+		
 		// for문의 반복 회수 intLength 만큼
 		// 변수 i 의 변화는 0~(intLength -1)이 된다.
-		for (int i = 0; i < intLength; i++) {
+		for(int i = 0 ; i < intLength ; i++) {
 			char cA = strNation.charAt(i);
 			System.out.println(i + " 번째 : " + cA);
-		}
 
 		System.out.println("===================================");
-		int i;
-		for (int cA = 0; i < intLength; i++) {
-		}
-		char[] cA;
-		System.out.println(cA);
+			for(int i = 0 ; i < intLength ; i++) {
+				char cA = strNation.charAt(i);
+				System.out.print(cA);
+				
+	}
+}
 	}
 }

@@ -25,12 +25,12 @@ public class Boolean_01 {
 		// 변수의 기본형이 아니고 class 라는 형태의
 		// 특별한 type
 		// 사용법은 일반 변수와 같이 사용하면 된다.
-		String strName = "대한민국" ; // 문자열을 저장하는 변수
+		String strName = '대한민국' ; // 문자열을 저장하는 변수
 		
 		bYes = 3 == 3; // true가 bYes에 저장
 		bYes = 3 > 3; // false가 bYes에 저장
 		
-		bYes = 3 != 3; // 3과 3이 다르냐?, false가 bYes에 저장
+		bYes = 3 ! = 3; // 3과 3이 다르냐?, false가 bYes에 저장
 		bYes = !bYes; // bYes값을 역전(Inverter, NOT 연산)
 		
 		int n = 1;

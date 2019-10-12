@@ -46,4 +46,7 @@ public class GradeVO {
 	public void setIntGrade(int intGrade) {
 		this.intGrade = intGrade;
 	}
+
+	
+
 }

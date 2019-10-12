@@ -9,8 +9,6 @@ public interface ScoreService {
 	public void rank();
 	
 	public void list();
-
-	public void avg();
 	
 	
 }

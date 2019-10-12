@@ -59,6 +59,5 @@ public class Grade_02 {
 		System.out.print("국어점수 >> ");
 		String strKor = scan.nextLine();
 		intKor[index] = Integer.valueOf(strKor);
-		
 	}
 }

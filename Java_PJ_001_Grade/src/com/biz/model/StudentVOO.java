@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.biz.grade.service.GradeServiceImp;
-import com.biz.grade.service.ScoreServiceImpV1;
+import com.biz.grade.service.ScoreServiceImp;
 import com.biz.grade.service.StudentService;
 
 public class StudentVOO implements StudentService {
@@ -16,7 +16,7 @@ public class StudentVOO implements StudentService {
 		scoreList = new ArrayList<ScoreVO>();
 		
 		GradeServiceImp gs = new GradeServiceImp();
-		ScoreServiceImpV1 ss = new ScoreServiceImpV1();
+		ScoreServiceImp ss = new ScoreServiceImp();
 	
 	}
 		

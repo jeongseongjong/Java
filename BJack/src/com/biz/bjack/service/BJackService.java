@@ -41,7 +41,7 @@ public class BJackService {
 				vo.setNum(n);
 				// Score라는 객체 생성후 초기화
 				int intScore = 0 ;
-				// n이 String형 이기때문에 Integer이요 intScore로 주입
+				// n이 String형 이기때문에 Integer이용 intScore로 주입
 				// n에서 0은 10으로 해석되기 때문에 intScore가 0 이라면 10으로 인식
 				try {
 					intScore = Integer.valueOf(n);
@@ -50,7 +50,7 @@ public class BJackService {
 				} catch (Exception e) {
 					if(n.equals('A')) {
 						intScore = 1;
-						// 1이 아니면 10으로 적용
+						// 그외는 10으로 적용
 					}else {
 						intScore = 10;
 					}

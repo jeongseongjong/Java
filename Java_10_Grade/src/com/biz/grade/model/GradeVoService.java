@@ -101,7 +101,7 @@ public class GradeVoService {
 		System.out.printf("%3d\t",intMathTotal);
 		System.out.printf("%5d\t",intSumTotal);
 		
-		System.out.printf("%3d\n",intAvgTotal/gradeVO.length);
+		System.out.printf("%3d\t",intAvgTotal/gradeVO.length);
 		
 		
 		

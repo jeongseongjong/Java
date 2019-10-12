@@ -19,7 +19,7 @@ public class Prime_01 {
 
 		int num = rnd.nextInt(); // 정수 임의 숫자생성
 		num = rnd.nextInt(100); // 0~99 임의숫자 생성
-		num = rnd.nextInt(100)+1; // 1~100 임의숫자 생성
+		num = rnd.nextInt(100); // 1~100 임의숫자 생성
 
 		for (int i = 0; i < nums.length; i++) {
 

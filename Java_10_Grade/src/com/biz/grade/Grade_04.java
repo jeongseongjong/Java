@@ -13,7 +13,6 @@ public class Grade_04 {
 		gs.sort(); // 총점 기준으로 내림차순정렬
 		gs.view(); // 정렬 후 점수 확인
 		
-		
 		// gs.inputKor() method는 
 		// private으로 제한되어 있어서
 		// 외부에서 method를 직접 호출 할 수 없다.

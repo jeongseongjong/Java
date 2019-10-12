@@ -54,8 +54,8 @@ public class KeyInput_01 {
 		 * 그리고 객체이름은 일반적으로 클래스이름의 첫글자를
 		 * 소문자로하여 작성한다.
 		 */
-		String str;
-		Scanner scan;
+		String st;
+		Scanner scanner;
 	
 	}
 

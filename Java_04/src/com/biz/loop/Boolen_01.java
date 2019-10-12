@@ -20,7 +20,7 @@ public class Boolen_01 {
 		// 5가 5와 같으며 4와 4가 같냐?
 		// && = AND
 		bYes = 5 == 5 && 4 == 4;
-		bYes = 5 > 5 && 4 == 4;// false and true = false
+		bYes = 5 > 5 && 4 == 4 ; // false and true = false
 		bYes = 5 >= 5 && 4 > 4; // true and false = false
 		
 		// 5가 4보다 작거나 같냐 ?

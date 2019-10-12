@@ -17,9 +17,8 @@ public class FileEx_01 {
 		 * FileReader 운영체제에게 파일을 읽을테니 
 		 * 허락해달라 하는 요청과 운영체제가 허락을 하면, 
 		 * 읽을파일에 대한 정보를 java코드에서
-		 * 사용할 수 있도록 준비해주는 클래스 
-		 * 
-		 * 읽고자 하는 파일이름을 파일이 저장된 폴더 경로까지 
+		 * 사용할 수 있도록 준비해주는 클래스 읽고자 하는 
+		 * 파일이름을 파일이 저장된 폴더 경로까지 
 		 * 문자열 형태로 전달하면서 객체로 생성한다.
 		 * 
 		 */
@@ -41,10 +40,6 @@ public class FileEx_01 {
 			 */
 			fileReader = new FileReader(file);
 			int alpha = fileReader.read();
-			System.out.println(alpha);
-			System.out.println((char)alpha);
-			
-			alpha = fileReader.read();
 			System.out.println(alpha);
 			System.out.println((char)alpha);
 			

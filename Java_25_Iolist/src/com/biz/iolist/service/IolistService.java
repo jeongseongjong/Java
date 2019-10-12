@@ -32,31 +32,40 @@ public class IolistService {
 	 */
 	public void buyMake() throws Exception{
 		
-		for(String pro : proList) {
+		Random rnd = new Random();
+		int nSize = proList.size();
+		
+		
+		for(int i = 0 ; i < 20 ; i++) {
 			
-			String[] pros = pro.split(":");
+			// proList개수의 범위내에서 정수 1개를 임의생성
+			int index = rnd.nextInt(nSize);
+			
+			// 임의 상품정보 추출
+			String strProduct = proList.get(index);
+			
+			String[] pros = strProduct.split(":");
 			//pros[0] 상품명
 			//pros[1] 단가
 			
 			BuyVO bVO = new BuyVO();
 			bVO.setProName(pros[0]);
+			
+			// 상품정보에 있는 금액을 일단bVO의 price에 담기
 			bVO.setrPrice(Integer.valueOf(pros[1]));
 			
-			// int intPrice = 0;
-			int intrPrice = bVO.getrPrice();
-			int intVat = intrPrice / 10;
-			int intPrice = bVO.getrPrice() - bVO.getVat();
-			// int intQty = 0 ;
-			int intQty = rnd.nextInt(90) + 11;
+			int intPrice = Integer.valueOf(pros[1]);
+			intPrice = (int)(intPrice / 1.1); // 부가세 별도금액 계산
+			int intVat = intPrice - bVO.getPrice();
+			
+			int intQty = rnd.nextInt(90) + 10;
 			int intTotal = intPrice * intQty;
 			
-			bVO.setPrice(intPrice);
 			bVO.setVat(intVat);
 			bVO.setQty(intQty);
 			bVO.setTotal(intTotal);
 			
 			// buyList에 담기
-			buyList = new ArrayList<BuyVO>();
 			buyList.add(bVO)
 			;
 		}
@@ -75,6 +84,11 @@ public class IolistService {
 		fileOut.close();
 		return buyList ;
 	}
+	/*
+	 * 상품정보 파일을 읽어서 상품이름 : 가격 형식의 문자열 리스트 생성하는 곳
+	 * proList에는 다음과 같은 문자열들이 리스트로 만들어져 있을것이다.
+	 * 		상품이름 : 가격
+	 */
 
 	public void readeProduct(String proWriterFile) throws Exception{
 		
@@ -106,7 +120,7 @@ public class IolistService {
 /*
  * System.out.println("---------------------------------------------------------");
 		BuyVO buyVO = new BuyVO();
-		000010
+		
 		LocalDate localDate = LocalDate.now();
 		DateTimeFormatter df = 
 				DateTimeFormatter.ofPattern("yyyy-MM-dd");
@@ -118,6 +132,34 @@ public class IolistService {
 		
 		for(BuyVO vo : buyList) {
 			vo.setDate("yyyy-09-26");
+		}
+			for(String pro : proList) {
+			
+			String[] pros = pro.split(":");
+			//pros[0] 상품명
+			//pros[1] 단가
+			
+			BuyVO bVO = new BuyVO();
+			bVO.setProName(pros[0]);
+			bVO.setrPrice(Integer.valueOf(pros[1]));
+			
+			// int intPrice = 0;
+			int intrPrice = bVO.getrPrice();
+			int intVat = intrPrice / 10;
+			int intPrice = bVO.getrPrice() - bVO.getVat();
+			// int intQty = 0 ;
+			int intQty = rnd.nextInt(90) + 11;
+			int intTotal = intPrice * intQty;
+			
+			bVO.setPrice(intPrice);
+			bVO.setVat(intVat);
+			bVO.setQty(intQty);
+			bVO.setTotal(intTotal);
+			
+			// buyList에 담기
+			buyList = new ArrayList<BuyVO>();
+			buyList.add(bVO)
+			;
 		}
  */
 

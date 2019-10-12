@@ -15,8 +15,7 @@ public class IolistEx_04 {
 		
 		try {
 			List<BuyVO> buyList = ls.getBuyList(strProWriteFile);
-			IolistService is = new IolistService(buyList);
-			is.(strProWriteFile);
+			ls.
 		} catch (Exception e) {
 			// TODO: handle exception
 		}

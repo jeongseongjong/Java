@@ -24,7 +24,7 @@ public class IolistVO {
 	private int intTotal;
 
 	// vo객체를 생성하면서
-	// 4개의 값을 세팅할 수 있또록
+	// 4개의 값을 세팅할 수 있도록
 	// 매개변수가 있는 생성자를 작성
 	public IolistVO(String strDate, 
 			String strTime, 

@@ -9,8 +9,9 @@ public class Array_04 {
 		int[] intNum = new int[50];
 		Random rnd = new Random();
 
+		
 		int index = 0;
-		for (int i = 0; i < intNum.length; i++) {
+		for (int i = 2; i < intNum.length; i++) {
 			intNum[i] = rnd.nextInt(100) + 1;
 
 			for (index = 2; index < intNum[i]; index++) {
