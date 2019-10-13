@@ -39,9 +39,10 @@ public class StudentViewServiceV1 extends StudentViewServiceABS{
 	public void search(String strName) {
 		this.title();
 		for(StudentVO vo : stdList) {
-			if(vo.getS_name().contains(strName));
+			String name = vo.getS_name();
+			if(name.contains(strName)) {
 			this.body(vo);
-				
+			}
 		}
 		
 	}
@@ -53,7 +54,7 @@ public class StudentViewServiceV1 extends StudentViewServiceABS{
 
 	public void search(int grGrade, int lessGrade) {
 		// TODO Auto-generated method stub
-
+		this.title();
 		for(StudentVO vo : stdList) {
 			int grade = Integer.valueOf(vo.getS_grade());
 			if(grade >= grGrade && grade <= lessGrade) {

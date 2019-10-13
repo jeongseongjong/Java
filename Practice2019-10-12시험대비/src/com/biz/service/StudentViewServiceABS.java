@@ -1,9 +1,5 @@
 package com.biz.service;
 
-import java.util.List;
-
-import com.biz.domain.StudentVO;
-
 public abstract class StudentViewServiceABS {
 
 

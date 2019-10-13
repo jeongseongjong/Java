@@ -23,8 +23,11 @@ public class StudentEx_01 {
 			// TODO: handle exception
 		}
 		while(true) {
+			System.out.println("============================");
 			System.out.println("학생이름검색");
+			System.out.println("============================");
 			System.out.println("1.이름 2.학년 0.종료");
+			System.out.println("----------------------------");
 			System.out.print("선택 >>");
 			String strM = scan.nextLine();
 			int intM = Integer.valueOf(strM);
@@ -34,7 +37,16 @@ public class StudentEx_01 {
 			String strName = scan.nextLine();
 			sView.search(strName);
 			}else if(intM == 2) {
-				System.out.println();
+				System.out.print("최저학년 >> ");
+				String grGrade = scan.nextLine();
+				System.out.print("최고학년 >> ");
+				String lessGrade = scan.nextLine();
+				try {
+					sView.search(Integer.valueOf(grGrade), Integer.valueOf(lessGrade));
+				} catch (Exception e) {
+					System.out.println("숫자만 기입");
+				
+				}
 			}
 				
 		}
