@@ -1,4 +1,4 @@
-package com.biz.stu.domain;
+package com.biz.test.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,15 +10,15 @@ import lombok.ToString;
 @Data
 @Getter
 @Setter
+@ToString
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@ToString
-public class StuVO {
+public class UserVO {
 
 	private String num;
 	private String name;
-	private String tel;
-	private int grade;
-	private String addr;
+	private int age;
+	private int key;
+	private int weight;
 }

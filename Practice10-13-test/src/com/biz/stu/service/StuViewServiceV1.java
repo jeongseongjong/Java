@@ -24,11 +24,11 @@ public class StuViewServiceV1 extends StuABS{
 		System.out.println("-------------------------------");
 	}
 	public void body(StuVO vo) {
-		System.out.println(vo.getNum() + "\t");
-		System.out.println(vo.getName() + "\t");
-		System.out.println(vo.getTel() + "\t");
-		System.out.println(vo.getGrade() + "\t");
-		System.out.println(vo.getAddr() + "\t");
+		System.out.print(vo.getNum() + "\t");
+		System.out.print(vo.getName() + "\t");
+		System.out.print(vo.getTel() + "\t");
+		System.out.print(vo.getGrade() + "\t");
+		System.out.print(vo.getAddr() + "\t");
 		
 	}
 	public void view() {

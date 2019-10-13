@@ -1,25 +1,25 @@
-package com.biz.stu.service;
+package com.biz.test.service;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.biz.stu.domain.StuVO;
+import com.biz.test.domain.UserVO;
 
 import lombok.Getter;
 @Getter
-public class StuReadServiceV1 {
-
-	List<StuVO> stdList;
-	public StuReadServiceV1(){
-		stdList = new ArrayList(); 
+public class UserReadServiceV1 {
+	
+	List<UserVO> userList;
+	public UserReadServiceV1() {
+		userList = new ArrayList();
 	}
-	public void ReadService(String studentFile) throws Exception{
+	public void UserRead(String userFile) throws Exception{
 		FileReader fileReader;
 		BufferedReader buffer;
 		
-		fileReader = new FileReader(studentFile);
+		fileReader = new FileReader(userFile);
 		buffer = new BufferedReader(fileReader);
 		
 		String reader = new String();
@@ -28,12 +28,12 @@ public class StuReadServiceV1 {
 			if(reader == null)break;
 			String[] sList = reader.split(":");
 			
-			stdList.add(StuVO.builder().
+			userList.add(UserVO.builder().
 					num(sList[0]).
 					name(sList[1]).
-					tel(sList[2]).
-					grade(Integer.valueOf(sList[3])).
-					addr(sList[4]).build()
+					age(Integer.valueOf(sList[2])).
+					key(Integer.valueOf(sList[3])).
+					weight(Integer.valueOf(sList[4])).build()
 					);
 		}
 		buffer.close();

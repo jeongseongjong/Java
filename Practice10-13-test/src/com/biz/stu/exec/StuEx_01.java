@@ -27,7 +27,7 @@ public class StuEx_01 {
 			List<StuVO> stdList = sRead.getStdList();
 			sView.setStdList(stdList);
 		} catch (Exception e) {
-
+			e.printStackTrace();
 		}
 		while (true) {
 			System.out.println("==================================");
