@@ -21,7 +21,7 @@ public class StudentEx_01 {
 		try {
 			sr.ReadService(studentFile);
 			List<StudentVO> stdList = sr.getStdList();
-			sv.view();
+			sv.setStdList(stdList);
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
