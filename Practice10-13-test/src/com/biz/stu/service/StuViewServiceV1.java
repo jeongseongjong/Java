@@ -10,7 +10,7 @@ import lombok.Setter;
 
 @Setter
 @Getter
-public class StuViewServiceV1 extends StuABS{
+public class StuViewServiceV1 {
 	
 	List<StuVO> stdList;
 	public StuViewServiceV1() {
@@ -28,7 +28,7 @@ public class StuViewServiceV1 extends StuABS{
 		System.out.print(vo.getName() + "\t");
 		System.out.print(vo.getTel() + "\t");
 		System.out.print(vo.getGrade() + "\t");
-		System.out.print(vo.getAddr() + "\t");
+		System.out.print(vo.getAddr() + "\n");
 		
 	}
 	public void view() {

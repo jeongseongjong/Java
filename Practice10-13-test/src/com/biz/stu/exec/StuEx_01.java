@@ -47,8 +47,8 @@ public class StuEx_01 {
 				sView.view(strName);
 			} else if (intM == 2) {
 				System.out.print("니 몇학년 이니 ? >>");
-				int intGrade = scan.nextInt();
-				sView.view(intGrade);
+				String strGrade = scan.nextLine();
+				sView.view(Integer.valueOf(strGrade));
 
 			} else if (intM == 3) {
 				System.out.print("최저 몇학년 ? >>");

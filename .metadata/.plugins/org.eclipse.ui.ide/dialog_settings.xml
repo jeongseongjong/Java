@@ -38,4 +38,11 @@
 			<item value="org.eclipse.jdt.ui.java"/>
 		</list>
 	</section>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="670"/>
+		<item key="DIALOG_Y_ORIGIN" value="214"/>
+		<item key="DIALOG_WIDTH" value="581"/>
+		<item key="DIALOG_HEIGHT" value="452"/>
+		<item key="TOGGLE_SELECTED" value="true"/>
+	</section>
 </section>

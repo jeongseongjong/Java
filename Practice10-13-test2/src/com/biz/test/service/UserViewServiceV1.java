@@ -12,7 +12,7 @@ public class UserViewServiceV1 {
 
 	List<UserVO> userList;
 	public UserViewServiceV1() {
-		userList = new ArrayList<UserVO>();
+		userList = new ArrayList();
 	}
 	public void main() {
 		System.out.println("================================");

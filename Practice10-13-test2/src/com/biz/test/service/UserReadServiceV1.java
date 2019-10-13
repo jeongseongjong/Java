@@ -22,9 +22,9 @@ public class UserReadServiceV1 {
 		fileReader = new FileReader(userFile);
 		buffer = new BufferedReader(fileReader);
 		
-		String reader = new String();
+		
 		while(true) {
-			reader = buffer.readLine();
+			String reader = buffer.readLine();
 			if(reader == null)break;
 			String[] sList = reader.split(":");
 			

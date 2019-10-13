@@ -7,6 +7,10 @@ import com.biz.test.domain.UserVO;
 import com.biz.test.service.UserReadServiceV1;
 import com.biz.test.service.UserViewServiceV1;
 
+import lombok.Getter;
+import lombok.Setter;
+@Getter
+@Setter
 public class UserEx_01 {
 
 	public static void main(String[] args) {
@@ -37,7 +41,7 @@ public class UserEx_01 {
 			System.out.println("-------------------------");
 
 			int intM = Integer.valueOf(strM);
-			if (intM == 0)
+			if (intM == 0) 
 				break;
 			if (intM == 1) {
 				System.out.print("이름검색 >> ");
@@ -45,8 +49,8 @@ public class UserEx_01 {
 				uv.view(strName);
 			} else if (intM == 2) {
 				System.out.print("나이검색 >> ");
-				int age = scan.nextInt();
-				uv.view(age);
+				String age = scan.nextLine();
+				uv.view(Integer.valueOf(age));
 			} else if (intM == 3) {
 				System.out.print("얼라 >>");
 				String lsAge = scan.nextLine();
