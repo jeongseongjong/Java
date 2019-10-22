@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\Java\JDBC\Biz_505_2019_10_JDBC-master"/>
 		<item value="D:\Java\eclipse-workspace"/>
 		<item value="D:\Java\eclipse-workspace\Chap1"/>
 		<item value="D:\Java\eclipse-workspace\sesson_01"/>
