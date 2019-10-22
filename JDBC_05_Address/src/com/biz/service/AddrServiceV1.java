@@ -110,6 +110,78 @@ public class AddrServiceV1 {
 		return true;
 		
 	}
+	
+	public void searchAddrAddr(boolean cConti) {
+		while (true) {
+			if (this.searchAddrAddr() != null)
+				break;
+		}
+	}
+	
+	public String searchAddrAddr() {
+
+		System.out.println("==========================");
+		System.out.println("주소 검색");
+		System.out.println("==========================");
+		System.out.print("주소 (-Q:quit) >> ");
+		String strAddr = scan.nextLine();
+		if (strAddr.equals("-Q"))
+			return "-Q";
+		this.searchAddrName(strAddr);
+		return strAddr;
+
+	}
+
+	public boolean searchAddrAddr(String strAddr) {
+
+		List<AddrDTO> addrList = addrDao.findByAddr(strAddr);
+
+		if (addrList == null || addrList.size() < 1) {
+			System.out.println("찾는 주소 없음");
+			return false;
+		}
+		this.viewList(addrList);
+		return true;
+
+	}
+	
+	
+	
+	public void searchAddrChain(boolean dConti) {
+		while (true) {
+			if (this.searchAddrChain() != null)
+				break;
+		}
+	}
+	
+	public String searchAddrChain() {
+
+		System.out.println("==========================");
+		System.out.println("관계 검색");
+		System.out.println("==========================");
+		System.out.print("관계 (-Q:quit) >> ");
+		String strChain = scan.nextLine();
+		if (strChain.equals("-Q"))
+			return "-Q";
+		this.searchAddrName(strChain);
+		return strChain;
+
+	}
+
+	public boolean searchAddrChain(String strChain) {
+
+		List<AddrDTO> addrList = addrDao.findByChain(strChain);
+
+		if (addrList == null || addrList.size() < 1) {
+			System.out.println("찾는 관계 없음");
+			return false;
+		}
+		this.viewList(addrList);
+		return true;
+
+	}
+	
+	
 
 	public void updateAddr() {
 		

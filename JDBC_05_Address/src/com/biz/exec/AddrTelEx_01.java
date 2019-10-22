@@ -9,6 +9,6 @@ public static void main(String[] args) {
 		AddrServiceV1 as = new AddrServiceV1();
 		
 		as.searchAddrTel(true);
-		System.out.println("이름검색 종료");
+		System.out.println("전화번호검색 종료");
 	}
 }
